@@ -1,0 +1,78 @@
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form container styles */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles */
+table {
+    width: 100%;
+}
+
+/* Input and textarea styles */
+input[type="text"],
+textarea {
+    width: calc(100% - 16px);
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Radio and checkbox styles */
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 10px 8px 10px 0;
+}
+
+/* Label styles */
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Button container styles */
+.button-container {
+    text-align: center;
+}
+
+/* Button styles */
+input[type="submit"],
+input[type="reset"] {
+    padding: 12px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Button hover styles */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3;
+}

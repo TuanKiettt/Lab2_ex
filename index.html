@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>School of Computer Science & Engineering</h1>
+    <hr>
+    <div id="hidden"></div>
+    <h2>Register Form</h2>
+    <form action="">
+        <table>
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text" name="Name" id="Name"></td>
+            </tr>
+
+            <tr>
+                <td>ID:</td>
+                <td><input type="text" name="ID" id="ID"></td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="Email" id="Email"></td>
+            </tr>
+
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="Gender" id="Male">
+                    <label for="Male">Male</label>
+
+                    <input type="radio" name="Gender" id="Female">
+                    <label for="Male">Female</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Fiel of study:</td>
+                <td> <select id="Fiel" name="Fiel">
+                    <option value="cs">CS</option>
+                    <option value="im">IM</option>
+                    <option value="ee">EE</option>
+                    <option value="ba">BA</option>
+                    <option value="be">BE</option>
+                  </select></td>
+            </tr>
+
+            <tr>
+                <td>List of subjects:</td>
+                <td>
+                    <input type="checkbox" id="Subjects1" name="Subjects1">
+                    <label for="Subjects1">Principle of EE1</label> <br>
+                    <input type="checkbox" id="Subjects2" name="Subjects1">
+                    <label for="Subjects2"> Computer Network</label> <br>
+                    <input type="checkbox" id="Subjects3" name="Subjects3" >
+                    <label for="Subjects3"> Web Application Development</label> <br>
+                    <input type="checkbox" id="Subjects4" name="Subjects4">
+                    <label for="Subjects4"> OOP</label> <br>
+                    <input type="checkbox" id="Subjects5" name="Subjects5">
+                    <label for="Subjects5"> Computer Graphics</label>  <br> 
+                </td>
+            </tr>
+
+            <tr>
+                <td>Comments:</td>
+                <td><textarea>
+                </textarea></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" name="sumbit" id="submit" value="submit"></td>
+                <td><input type="reset" name="reset" id="reset" value="cancel"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
